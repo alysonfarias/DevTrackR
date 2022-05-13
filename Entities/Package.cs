@@ -22,8 +22,6 @@ namespace DevTrackr.API.Entities
       Updates.Add(update);
       Delivered = delivered;
     }
-
-    public int PackageId { get; private set; }
     public int Id { get; private set; }
     public string Code { get; private set; }
     public string Title { get; private set; }
@@ -31,7 +29,5 @@ namespace DevTrackr.API.Entities
     public bool Delivered { get; private set; }
     public DateTime PostedAt { get; private set; }
     public List<PackageUpdate> Updates { get; private set; }
-
-
   }
 }
