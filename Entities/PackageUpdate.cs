@@ -1,3 +1,5 @@
+using System;
+
 namespace DevTrackr.API.Entities
 {
     public class PackageUpdate

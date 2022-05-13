@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace DevTrackr.API.Entities
 {
   public class Package
